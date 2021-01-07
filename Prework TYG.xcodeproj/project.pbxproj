@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904E110B25A6AC8B004F0019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E110A25A6AC8B004F0019 /* AppDelegate.swift */; };
+		904E110D25A6AC8B004F0019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E110C25A6AC8B004F0019 /* SceneDelegate.swift */; };
+		904E110F25A6AC8B004F0019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E110E25A6AC8B004F0019 /* ViewController.swift */; };
+		904E111225A6AC8B004F0019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904E111025A6AC8B004F0019 /* Main.storyboard */; };
+		904E111425A6AC8D004F0019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904E111325A6AC8D004F0019 /* Assets.xcassets */; };
+		904E111725A6AC8D004F0019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904E111525A6AC8D004F0019 /* LaunchScreen.storyboard */; };
+		904E112225A6AC8D004F0019 /* Prework_TYGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E112125A6AC8D004F0019 /* Prework_TYGTests.swift */; };
+		904E112D25A6AC8D004F0019 /* Prework_TYGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E112C25A6AC8D004F0019 /* Prework_TYGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904E111E25A6AC8D004F0019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904E10FF25A6AC8B004F0019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904E110625A6AC8B004F0019;
+			remoteInfo = "Prework TYG";
+		};
+		904E112925A6AC8D004F0019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904E10FF25A6AC8B004F0019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904E110625A6AC8B004F0019;
+			remoteInfo = "Prework TYG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		904E110725A6AC8B004F0019 /* Prework TYG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prework TYG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904E110A25A6AC8B004F0019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		904E110C25A6AC8B004F0019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		904E110E25A6AC8B004F0019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		904E111125A6AC8B004F0019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904E111325A6AC8D004F0019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904E111625A6AC8D004F0019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904E111825A6AC8D004F0019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904E111D25A6AC8D004F0019 /* Prework TYGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework TYGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904E112125A6AC8D004F0019 /* Prework_TYGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_TYGTests.swift; sourceTree = "<group>"; };
+		904E112325A6AC8D004F0019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904E112825A6AC8D004F0019 /* Prework TYGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework TYGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904E112C25A6AC8D004F0019 /* Prework_TYGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_TYGUITests.swift; sourceTree = "<group>"; };
+		904E112E25A6AC8D004F0019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904E110425A6AC8B004F0019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E111A25A6AC8D004F0019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E112525A6AC8D004F0019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904E10FE25A6AC8B004F0019 = {
+			isa = PBXGroup;
+			children = (
+				904E110925A6AC8B004F0019 /* Prework TYG */,
+				904E112025A6AC8D004F0019 /* Prework TYGTests */,
+				904E112B25A6AC8D004F0019 /* Prework TYGUITests */,
+				904E110825A6AC8B004F0019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904E110825A6AC8B004F0019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904E110725A6AC8B004F0019 /* Prework TYG.app */,
+				904E111D25A6AC8D004F0019 /* Prework TYGTests.xctest */,
+				904E112825A6AC8D004F0019 /* Prework TYGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904E110925A6AC8B004F0019 /* Prework TYG */ = {
+			isa = PBXGroup;
+			children = (
+				904E110A25A6AC8B004F0019 /* AppDelegate.swift */,
+				904E110C25A6AC8B004F0019 /* SceneDelegate.swift */,
+				904E110E25A6AC8B004F0019 /* ViewController.swift */,
+				904E111025A6AC8B004F0019 /* Main.storyboard */,
+				904E111325A6AC8D004F0019 /* Assets.xcassets */,
+				904E111525A6AC8D004F0019 /* LaunchScreen.storyboard */,
+				904E111825A6AC8D004F0019 /* Info.plist */,
+			);
+			path = "Prework TYG";
+			sourceTree = "<group>";
+		};
+		904E112025A6AC8D004F0019 /* Prework TYGTests */ = {
+			isa = PBXGroup;
+			children = (
+				904E112125A6AC8D004F0019 /* Prework_TYGTests.swift */,
+				904E112325A6AC8D004F0019 /* Info.plist */,
+			);
+			path = "Prework TYGTests";
+			sourceTree = "<group>";
+		};
+		904E112B25A6AC8D004F0019 /* Prework TYGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				904E112C25A6AC8D004F0019 /* Prework_TYGUITests.swift */,
+				904E112E25A6AC8D004F0019 /* Info.plist */,
+			);
+			path = "Prework TYGUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904E110625A6AC8B004F0019 /* Prework TYG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904E113125A6AC8D004F0019 /* Build configuration list for PBXNativeTarget "Prework TYG" */;
+			buildPhases = (
+				904E110325A6AC8B004F0019 /* Sources */,
+				904E110425A6AC8B004F0019 /* Frameworks */,
+				904E110525A6AC8B004F0019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prework TYG";
+			productName = "Prework TYG";
+			productReference = 904E110725A6AC8B004F0019 /* Prework TYG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		904E111C25A6AC8D004F0019 /* Prework TYGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904E113425A6AC8D004F0019 /* Build configuration list for PBXNativeTarget "Prework TYGTests" */;
+			buildPhases = (
+				904E111925A6AC8D004F0019 /* Sources */,
+				904E111A25A6AC8D004F0019 /* Frameworks */,
+				904E111B25A6AC8D004F0019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904E111F25A6AC8D004F0019 /* PBXTargetDependency */,
+			);
+			name = "Prework TYGTests";
+			productName = "Prework TYGTests";
+			productReference = 904E111D25A6AC8D004F0019 /* Prework TYGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904E112725A6AC8D004F0019 /* Prework TYGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904E113725A6AC8D004F0019 /* Build configuration list for PBXNativeTarget "Prework TYGUITests" */;
+			buildPhases = (
+				904E112425A6AC8D004F0019 /* Sources */,
+				904E112525A6AC8D004F0019 /* Frameworks */,
+				904E112625A6AC8D004F0019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904E112A25A6AC8D004F0019 /* PBXTargetDependency */,
+			);
+			name = "Prework TYGUITests";
+			productName = "Prework TYGUITests";
+			productReference = 904E112825A6AC8D004F0019 /* Prework TYGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904E10FF25A6AC8B004F0019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					904E110625A6AC8B004F0019 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					904E111C25A6AC8D004F0019 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 904E110625A6AC8B004F0019;
+					};
+					904E112725A6AC8D004F0019 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 904E110625A6AC8B004F0019;
+					};
+				};
+			};
+			buildConfigurationList = 904E110225A6AC8B004F0019 /* Build configuration list for PBXProject "Prework TYG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904E10FE25A6AC8B004F0019;
+			productRefGroup = 904E110825A6AC8B004F0019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904E110625A6AC8B004F0019 /* Prework TYG */,
+				904E111C25A6AC8D004F0019 /* Prework TYGTests */,
+				904E112725A6AC8D004F0019 /* Prework TYGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904E110525A6AC8B004F0019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904E111725A6AC8D004F0019 /* LaunchScreen.storyboard in Resources */,
+				904E111425A6AC8D004F0019 /* Assets.xcassets in Resources */,
+				904E111225A6AC8B004F0019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E111B25A6AC8D004F0019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E112625A6AC8D004F0019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904E110325A6AC8B004F0019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904E110F25A6AC8B004F0019 /* ViewController.swift in Sources */,
+				904E110B25A6AC8B004F0019 /* AppDelegate.swift in Sources */,
+				904E110D25A6AC8B004F0019 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E111925A6AC8D004F0019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904E112225A6AC8D004F0019 /* Prework_TYGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E112425A6AC8D004F0019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904E112D25A6AC8D004F0019 /* Prework_TYGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904E111F25A6AC8D004F0019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904E110625A6AC8B004F0019 /* Prework TYG */;
+			targetProxy = 904E111E25A6AC8D004F0019 /* PBXContainerItemProxy */;
+		};
+		904E112A25A6AC8D004F0019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904E110625A6AC8B004F0019 /* Prework TYG */;
+			targetProxy = 904E112925A6AC8D004F0019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		904E111025A6AC8B004F0019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904E111125A6AC8B004F0019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904E111525A6AC8D004F0019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904E111625A6AC8D004F0019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904E112F25A6AC8D004F0019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		904E113025A6AC8D004F0019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904E113225A6AC8D004F0019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework TYG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amulya.Prework-TYG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904E113325A6AC8D004F0019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework TYG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amulya.Prework-TYG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904E113525A6AC8D004F0019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework TYGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amulya.Prework-TYGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework TYG.app/Prework TYG";
+			};
+			name = Debug;
+		};
+		904E113625A6AC8D004F0019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework TYGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amulya.Prework-TYGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework TYG.app/Prework TYG";
+			};
+			name = Release;
+		};
+		904E113825A6AC8D004F0019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework TYGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amulya.Prework-TYGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework TYG";
+			};
+			name = Debug;
+		};
+		904E113925A6AC8D004F0019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework TYGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amulya.Prework-TYGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework TYG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904E110225A6AC8B004F0019 /* Build configuration list for PBXProject "Prework TYG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904E112F25A6AC8D004F0019 /* Debug */,
+				904E113025A6AC8D004F0019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904E113125A6AC8D004F0019 /* Build configuration list for PBXNativeTarget "Prework TYG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904E113225A6AC8D004F0019 /* Debug */,
+				904E113325A6AC8D004F0019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904E113425A6AC8D004F0019 /* Build configuration list for PBXNativeTarget "Prework TYGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904E113525A6AC8D004F0019 /* Debug */,
+				904E113625A6AC8D004F0019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904E113725A6AC8D004F0019 /* Build configuration list for PBXNativeTarget "Prework TYGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904E113825A6AC8D004F0019 /* Debug */,
+				904E113925A6AC8D004F0019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904E10FF25A6AC8B004F0019 /* Project object */;
+}
